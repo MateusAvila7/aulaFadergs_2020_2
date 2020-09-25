@@ -13,14 +13,17 @@ public class Aulad177 {
         int x = 0;
         int y;
         y = 0;
-        Carro c1 = new Carro(" ford ", " Versaille ", 58.0);
-        c1.cadastrar();
-        System.out.println("id:" + c1.getid());
+   //     Carro c1 = new Carro(" ford ", " Versaille ", 58.0);
+   //     c1.cadastrar();
+   //     System.out.println("id:" + c1.getid());
+   //   
+   //   Carro c2 = new Carro(" chevrolet ", " opala ", 60.00);
+   //     c2.cadastrar();
+   //     System.out.println("id:" + c2.getid());
         
-        Carro c2 = new Carro(" chevrolet ", " opala ", 60.00);
-        c2.cadastrar();
-        System.out.println("id:" + c2.getid());
         
+        System.out.println("\n cap. Maxima: " + Carro.CAPACIDAEDE_MAXIMA);
+        System.out.println("\n cap. Maxima: " + Carro.calcularConsumo(100, 8));
         
     }
     

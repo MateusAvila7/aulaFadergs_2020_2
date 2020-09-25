@@ -10,6 +10,9 @@ import javax.swing.JOptionPane;
 
 
 public class Carro {
+    
+    public static final double CAPACIDAEDE_MAXIMA = 100.0;
+    
     private int id;
     private String marca;
     protected String modelo;
@@ -52,4 +55,10 @@ public class Carro {
         }
         return espaco;
     }
+    //constantes e metodos estaticos 
+    public static double calcularConsumo(double km, double litros){
+        double consumo = km / litros;
+        return consumo;
+    }
+    
 }
